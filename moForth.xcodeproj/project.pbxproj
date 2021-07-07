@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CD37C25C26960CE500ABA394 /* moForth */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = moForth; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD37C25C26960CE500ABA394 /* moForth */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = moForth; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD37C25F26960CE500ABA394 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +43,7 @@
 			children = (
 				CD37C25E26960CE500ABA394 /* moForth */,
 				CD37C25D26960CE500ABA394 /* Products */,
+				CD37C26626960F1A00ABA394 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +61,13 @@
 				CD37C25F26960CE500ABA394 /* main.c */,
 			);
 			path = moForth;
+			sourceTree = "<group>";
+		};
+		CD37C26626960F1A00ABA394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
