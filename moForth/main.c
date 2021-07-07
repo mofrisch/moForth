@@ -15,6 +15,7 @@
 char getkey(void) {
     
   char buf = 0;
+    
   struct termios old = {0};
   if (tcgetattr(0, &old) < 0)
     perror("tcsetattr()");
