@@ -20,6 +20,7 @@ char getkey(void) {
   if (tcgetattr(0, &old) < 0)
       
     perror("tcsetattr()");
+    
   old.c_lflag &= ~ICANON;
   old.c_lflag &= ~ECHO;
   old.c_cc[VMIN] = 1;
